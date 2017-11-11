@@ -13,3 +13,11 @@ This is a simple web service with tornado.
 ## How to run
 
 ```python server.py```
+
+## With Docker
+
+build the image:
+```docker build -t tornado_img .```
+
+run the container:
+```docker run --rm -p 8888:8888 -ti alpine_img python server.py```
