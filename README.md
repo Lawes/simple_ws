@@ -5,6 +5,10 @@ This is a simple web service with tornado.
  * ws parameters
  * output
 
-How to run:
+## Some help
+ * [Some examples](http://www.drdobbs.com/open-source/building-restful-apis-with-tornado/240160382)
+ * [Return status](https://solidgeargroup.com/best-practices-rest-api)
+
+## How to run
 
 ```python server.py```
